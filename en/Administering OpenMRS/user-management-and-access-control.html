@@ -1,0 +1,911 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>User Management and Access Control · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="maintenance.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../introduction.html">
+            
+                <a href="../introduction.html">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    OpenMRS Around the World
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="../Introduction/a-brief-history.html">
+            
+                <a href="../Introduction/a-brief-history.html">
+            
+                    
+                    A Brief History
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="../Introduction/example-amani-clinic.html">
+            
+                <a href="../Introduction/example-amani-clinic.html">
+            
+                    
+                    Example: Amani Clinic
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Planning
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Planning/is-openmrs-for-you.html">
+            
+                <a href="../Planning/is-openmrs-for-you.html">
+            
+                    
+                    Is OpenMRS for You?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Planning/identifying-your-needs.html">
+            
+                <a href="../Planning/identifying-your-needs.html">
+            
+                    
+                    Identifying Your Needs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Planning/transitioning-to-openmrs.html">
+            
+                <a href="../Planning/transitioning-to-openmrs.html">
+            
+                    
+                    Transitioning to OpenMRS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Getting Started
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Getting Started/installation-and-initial-setup.html">
+            
+                <a href="../Getting Started/installation-and-initial-setup.html">
+            
+                    
+                    Installation and Initial Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Getting Started/openmrs-information-model.html">
+            
+                <a href="../Getting Started/openmrs-information-model.html">
+            
+                    
+                    OpenMRS Information Model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Getting Started/getting-around-the-user-interface.html">
+            
+                <a href="../Getting Started/getting-around-the-user-interface.html">
+            
+                    
+                    Getting Around the User Interface
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Configuration
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Configuration/customizing-openmrs-with-plug-in-modules.html">
+            
+                <a href="../Configuration/customizing-openmrs-with-plug-in-modules.html">
+            
+                    
+                    Customizing OpenMRS with Plug-in Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../Configuration/managing-concepts-and-metadata.html">
+            
+                <a href="../Configuration/managing-concepts-and-metadata.html">
+            
+                    
+                    Managing Concepts and Metadata
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../Configuration/sharing-concepts-and-metadata.html">
+            
+                <a href="../Configuration/sharing-concepts-and-metadata.html">
+            
+                    
+                    Sharing Concepts and Metadata
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../Configuration/configuring-visits.html">
+            
+                <a href="../Configuration/configuring-visits.html">
+            
+                    
+                    Configuring Visits
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Collecting Data
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Collecting Data/the-patient-dashboard-in-depth.html">
+            
+                <a href="../Collecting Data/the-patient-dashboard-in-depth.html">
+            
+                    
+                    The Patient Dashboard In Depth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Collecting Data/registering-patients.html">
+            
+                <a href="../Collecting Data/registering-patients.html">
+            
+                    
+                    Registering Patients
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../Collecting Data/data-entry.html">
+            
+                <a href="../Collecting Data/data-entry.html">
+            
+                    
+                    Data Entry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../Collecting Data/html-forms.html">
+            
+                <a href="../Collecting Data/html-forms.html">
+            
+                    
+                    HTML Forms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../Collecting Data/xforms.html">
+            
+                <a href="../Collecting Data/xforms.html">
+            
+                    
+                    XForms
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Using Data
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../Using Data/cohort-builder.html">
+            
+                <a href="../Using Data/cohort-builder.html">
+            
+                    
+                    Cohort Builder
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../Using Data/reporting.html">
+            
+                <a href="../Using Data/reporting.html">
+            
+                    
+                    Reporting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../Using Data/patient-alerts-and-flags.html">
+            
+                <a href="../Using Data/patient-alerts-and-flags.html">
+            
+                    
+                    Patient Alerts and Flags
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Administering OpenMRS
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.7.1" data-path="user-management-and-access-control.html">
+            
+                <a href="user-management-and-access-control.html">
+            
+                    
+                    User Management and Access Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="maintenance.html">
+            
+                <a href="maintenance.html">
+            
+                    
+                    Maintenance
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="troubleshooting.html">
+            
+                <a href="troubleshooting.html">
+            
+                    
+                    Troubleshooting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="getting-help-from-the-openmrs-community.html">
+            
+                <a href="getting-help-from-the-openmrs-community.html">
+            
+                    
+                    Getting Help from the OpenMRS Community
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../epilogue.html">
+            
+                <a href="../epilogue.html">
+            
+                    
+                    Epilogue
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../Epilogue/leaving-amani-clinic.html">
+            
+                <a href="../Epilogue/leaving-amani-clinic.html">
+            
+                    
+                    Leaving Amani Clinic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../Epiloque/about-this-book.html">
+            
+                <a href="../Epiloque/about-this-book.html">
+            
+                    
+                    About this Book
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../appendices.html">
+            
+                <a href="../appendices.html">
+            
+                    
+                    Appendices
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../appendix-a-glossary.html">
+            
+                <a href="../appendix-a-glossary.html">
+            
+                    
+                    Appendix A: Glossary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../appendix-b-example-html-form-source.html">
+            
+                <a href="../appendix-b-example-html-form-source.html">
+            
+                    
+                    Appendix B: Example HTML Form Source
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../appendix-c-document-history.html">
+            
+                <a href="../appendix-c-document-history.html">
+            
+                    
+                    Appendix C: Document History
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >User Management and Access Control</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="user-management-and-access-control">User Management and Access Control</h1>
+<p><strong>Roles</strong> and <strong>Privileges</strong> are controlled through the <strong>Administration</strong> page, under the <strong>Manage Users</strong> section.</p>
+<p>OpenMRS uses privileges and roles to control access to data within the system. Privileges define what can or cannot be done in the system (e.g., <strong>Edit Patients</strong> or <strong>Add Users</strong>), while roles are used to group privileges into more manageable groupings. To make the system easier to manage, roles can contain other roles as well as privileges. Roles inherit all the privileges of their parent roles.</p>
+<p>We will use this example: you are working with several privileges related to patient data&#x2014;e.g., <strong>View Patients</strong>, <strong>Edit Patients</strong>, and <strong>Add Patients</strong>. TheView Patientsprivilege lets users look at patients in the system, the <strong>Edit Patients</strong> privilege lets users edit information about existing patients, and the <strong>Add Patients</strong> privilege allows users to create a completely new patient record within the system.</p>
+<p>Now imagine that you need to assign the proper rules to three people: Mary the Medical Student, Bob the Data Assistant, and Erica the Data Manager. You want medical students to be able to view patients, but not edit or add them. Data assistants should be able to not only view, but also edit patient data. And you want your data managers to be able to create new patients within your system.</p>
+<h2 id="designing-role-and-privilege-schemes">Designing role and privilege schemes</h2>
+<p>In order to give these privileges to the relevant users, you must define a role for each of these types of user.</p>
+<table>
+  <tbody>
+    <tr>
+      <th>Role</th>
+      <th>Privilege(s)</th>
+    </tr>
+    <tr>
+      <td>
+        Medical Student
+      </td>
+      <td>
+        <p>View Patients</p>
+      </td>
+    </tr>
+    <tr>
+      <td>Data Assistant</td>
+      <td>
+        <p>View Patients</p>
+        <p>Edit Patients</p>
+      </td>
+    </tr>
+    <tr>
+      <td>Data Manager</td>
+      <td>
+        <p>View Patients</p>
+        <p>Edit Patients</p>
+        <p>Add Patients</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Now, by defining the main roles for users of your system and assigning users to those roles, you have a much easier system to manage and users will automatically inherit all privileges given to their role(s). Of course, some users will have multiple roles. Now, let&apos;s take this process one step further. While it may not seem necessary in this simple example, as your system grows, you will likely end up with a large number of different roles. Very often, certain roles can be defined as a combination of other roles. In our example, a <strong>Data Manager</strong> oversees the <strong>Data Assistants</strong> and therefore should have all of their privileges plus some additional privileges. So, let&apos;s redesign our roles slightly to show how this might work.</p>
+<table>
+  <tbody>
+    <tr>
+      <th>Role</th>
+      <th>Inherit Privileges from Role(s)</th>
+      <th>Additional Privilege(s)</th>
+    </tr>
+    <tr>
+      <td>
+        Medical Student
+      </td>
+      <td></td>
+      <td>
+        View Patient
+      </td>
+    </tr>
+    <tr>
+      <td>Data Assistant</td>
+      <td></td>
+      <td>
+        <p>View Patient</p>
+        <p>Edit Patient</p>
+      </td>
+    </tr>
+    <tr>
+      <td>Data Manager</td>
+      <td>
+        Data Assistant
+      </td>
+      <td>
+        Add Patient
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<p>You can see that the <strong>Data Manager</strong> role can be more clearly defined as a <strong>Data Assistant</strong> with the extra ability to add patients to the system. In addition, if you should change or enhance the privileges of the <strong>Data Assistant</strong> role at any time in the future, the <strong>Data Manager</strong> will automatically adapt to those changes &#x2014; for example, if you decided a month later to allow any <strong>Data Assistant</strong> to <strong>Edit Encounters</strong> (by adding the <strong>Edit Encounters</strong> privilege to the <strong>Data Assistant</strong> role), the <strong>Data Manager</strong> role would automatically gain the ability to edit encounters as well.</p>
+<p>In a common deployment scenario, you will have several roles that use the same privileges with only a few differences. It is simpler to manage these privileges by defining a new role from which the others can all inherit. For example, you may have roles like <strong>Clinician</strong>, <strong>Data Assistant</strong>, and <strong>Caregiver</strong>  that all have the same rules about viewing patient data.  You might benefit from creating a new <strong>Patient Data Viewer</strong> role, assigning it to each of those other roles, and then managing the privileges in one place (under that new role).  When there is a policy change about viewing patient data, or a new module is added that adds new functions for viewing data, you would update the Patient Data Viewer role. All the inheriting roles would automatically use the new settings.</p>
+<h3 id="built-in-roles">Built-in roles</h3>
+<p>There are some special roles that are predefined within OpenMRS and cannot be deleted: <strong>Anonymous</strong>, <strong>Authenticated</strong>, and <strong>System Developer</strong>. Any privileges granted to the <strong>Anonymous</strong> role will be available to people without logging into the system. Generally, <strong>Anonymous</strong> privileges should be kept very restricted, since patient information might otherwise be compromised. Privileges granted to the <strong>Authenticated</strong> role are granted to anyone that logs into your system, no matter what other role(s) they might be assigned. Granting privileges to the <strong>Authenticated</strong> role is an easy way to grant privileges to all users of the system. The <strong>System Developer</strong> role is automatically granted full access to the system and should only be granted to system administrators.</p>
+<p><strong>Super users</strong> (system administrators) are automatically granted all privileges in the system; therefore, you must be very careful to protect your system administrator password.</p>
+<p>Some privileges are built into the system and cannot be deleted. Other privileges may be added by modules. It is unlikely that you will be adding new privileges yourself, since privileges are only useful when they are understood and used by the system. On the other hand, you will definitely be creating new roles to fit your needs and will be managing privileges within those roles.</p>
+<h2 id="creating-roles">Creating roles</h2>
+<p>You create roles through <strong>Administration &gt; Manage Roles</strong>.</p>
+<p><img src="../assets/manage_roles.png" alt=""></p>
+<ol>
+<li><p>Allows to add a new role</p>
+</li>
+<li><p>Lists all roles present in the system</p>
+</li>
+<li><p>Click a role to edit it.</p>
+</li>
+</ol>
+<p>If you then follow the <strong>Add Role</strong> link, you will see a form for adding a new role.</p>
+<p><img src="../assets/add_role.png" alt=""></p>
+<ol>
+<li><p>Enter Role Name</p>
+</li>
+<li><p>Choose Roles Privileges of which you want to inherit</p>
+</li>
+<li><p>Choose Privileges which you want this Role to have</p>
+</li>
+</ol>
+<h2 id="creating-users">Creating users</h2>
+<p>To create these users, we&apos;ll go through <strong>Administration &gt; Manage Users</strong>. This page also lets you find and edit existing users.</p>
+<p><img src="../assets/manage_users.png" alt=""></p>
+<ol>
+<li><p>Create a new User</p>
+</li>
+<li><p>Search Users by Name or Roles</p>
+</li>
+<li><p>Search results</p>
+</li>
+<li><p>Edit a single User</p>
+</li>
+</ol>
+<p>Users in OpenMRS need to be associated with Persons. You either need to create a new Person, or attach the user account to an existing one.</p>
+<p><img src="../assets/add_user.png" alt=""></p>
+<p>In both cases you will be taken to the same <strong>Add/Edit User</strong> screen. (If you selected an existing person, the fields in the <strong>Demographic Info</strong> section will be filled out for you.)</p>
+<p><img src="../assets/add_edit_user.png" alt=""></p>
+<h2 id="managing-providers">Managing Providers</h2>
+<p>For every Encounter you must enter one or more <strong>Providers</strong>, the person who provided the care or services. Forms usually include a dropdown box to select a provider.</p>
+<p>The system administrator must explicitly identify Providers. This is done through <strong>Administration &gt; Providers &gt; Manage Providers</strong>.</p>
+<p>There are two kinds of providers. In OpenMRS 1.8 and earlier, a provider had to be associated with a user or, less often, a patient. The administrator had to create a user, and then search for them with the Person dropdown box. This is most useful when a provider has a user login. </p>
+<p>At many OpenMRS sites, only a few users log into the system. Often, treatment notes are entered by data clerks after an encounter, and clinicians never log in. Perhaps there are hundreds of providers who volunteer at the clinic only briefly. From OpenMRS 1.9 on, these providers can be entered as a name, and a user login is not required.</p>
+<p>For system security, patient privacy, and ease of maintenance, it&apos;s best to enter providers only as a Provider Name when possible. You should create a user if the provider needs to log in or be given special permissions through a role. You can assign a user to a provider at a later time if it becomes necessary.</p>
+<p>To create a Provider, go to <strong>Admin &gt; Manage Providers</strong> and click <strong>Add Provider</strong>.</p>
+<p><img src="../assets/managing_users_add_provider.png" alt=""></p>
+<p>The identifier is a unique word or number that you provide.  It&apos;s recommended that you create identifiers in a way that&apos;s simple and easy, such as using the provider&apos;s last name and first name.</p>
+<p>Next, decide if this provider will be associated with a Person, or only be entered as a provider name.  If you choose the Person style, you must have already created a User for them. Begin typing their name in the Person field, and select them from the auto-complete list of matching users. For a Provider who is simply a Provider Name, enter their name in the Provider Name field.  </p>
+<p>Click <strong>Save</strong> to save the provider. </p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="maintenance.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Maintenance">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"User Management and Access Control","level":"1.7.1","depth":2,"next":{"title":"Maintenance","level":"1.7.2","depth":2,"path":"Administering OpenMRS/maintenance.md","ref":"Administering OpenMRS/maintenance.md","articles":[]},"previous":{"title":"Administering OpenMRS","level":"1.7","depth":1,"ref":"","articles":[{"title":"User Management and Access Control","level":"1.7.1","depth":2,"path":"Administering OpenMRS/user-management-and-access-control.md","ref":"Administering OpenMRS/user-management-and-access-control.md","articles":[]},{"title":"Maintenance","level":"1.7.2","depth":2,"path":"Administering OpenMRS/maintenance.md","ref":"Administering OpenMRS/maintenance.md","articles":[]},{"title":"Troubleshooting","level":"1.7.3","depth":2,"path":"Administering OpenMRS/troubleshooting.md","ref":"Administering OpenMRS/troubleshooting.md","articles":[]},{"title":"Getting Help from the OpenMRS Community","level":"1.7.4","depth":2,"path":"Administering OpenMRS/getting-help-from-the-openmrs-community.md","ref":"Administering OpenMRS/getting-help-from-the-openmrs-community.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["theme-default","custom-favicon","ga","edit-link"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"/assets/favicon.ico","custom-favicon":{},"ga":{"configuration":"auto","token":"UA-16695719-14"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"EDIT","base":"https://github.com/openmrs/openmrs-book-guide/edit/master"},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"languages":[{"lang":"js","name":"JavaScript","default":true},{"lang":"java","name":"Java"},{"lang":"html","name":"HTML"},{"lang":"sh","name":"Shell"},{"lang":"go","name":"Go"}]}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"Administering OpenMRS/user-management-and-access-control.md","mtime":"2017-05-15T03:35:22.299Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-15T03:36:51.557Z"},"basePath":"..","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
