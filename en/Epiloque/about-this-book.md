@@ -16,7 +16,7 @@ The authors for the first version were Rafal Korytkowski \(Poland\), Glen McCall
 
 We received proofreading, structural advice, and editing assistance from Paul Biondich \(United States\), Hamish Fraser \(United States\), Allen Gunn \(United States\), Daniel Kayiwa \(Uganda\), Burke Mamlin \(United States\), Saptarshi Purkayastha \(India\), Janet Riley \(United States\), and Ben Wolfe \(Kenya\).
 
-Photographs in this book are courtesy of James Arbaugh, Michael J. Downey, Frank Fries, Mathew Ssemakadde, and Stephanie Taylor. The original book cover was designed by Laleh Torabi.
+Photographs in this book are courtesy of James Arbaugh, Michael J. Downey, Frank Fries, Matthew Ssemakadde, and Stephanie Taylor. The original book cover was designed by Laleh Torabi.
 
 We would also like to thank the countless people who have contributed to OpenMRS documentation over the past seven years, and the writing team of\_CivicCRM: A Comprehensive Guide,\_all of which served as inspiration and the basis for much of this book. The OpenMRS community thanks everyone who participated in making this book a reality. Thank you!
 
